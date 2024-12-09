@@ -10,7 +10,7 @@ document.getElementById("voiceButton").addEventListener("click", () => {
         console.log("You said:", spokenWord);
 
         // Expected voice input
-        const expectedWord = "jk";
+        const expectedWord = "i jk open lock";
 
         // Check if spoken word matches
         if (spokenWord === expectedWord) {
